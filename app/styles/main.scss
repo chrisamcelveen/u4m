@@ -1037,99 +1037,21 @@ ul#sub-navigation li:last-child {
    Footer Styles
    =================================================== */
 
-
-.pre-footer{
-    background-color: #222222;
-    border-top: none;
-    padding-bottom: 20px;
-    color: #A1A1A1;
+#footer {
+  height: 120px;
+  background: rgba( 32, 32, 32, 0.80);
 }
 
-.pre-footer a{
-    color: #ccc;
+#footer ul li {
+  display: inline-block;
+  padding-left: 4%;
 }
 
-.pre-footer a:hover{
-    color: #ccc;
+#footer ul.navs li a {
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.pre-footer .span3 {
-    border-right: 1px solid #333333;
-}
 
-.pre-footer .span4 {
-    border-right: 1px solid #333333;
-}
-
-.pre-footer .work{
-    padding-right: 35px;
-    margin-bottom: 18px;
-}
-
-.pre-footer h3{
-    color: #A1A1A1;
-    font-weight: 100;
-}
-
-.post-footer{
-    border-top: 1px solid #333;
-    background-color: #222222;
-    padding: 20px 0;
-    color: #A1A1A1;
-    position: relative;
-}
-
-.post-footer .up {
-    border-bottom: 15px solid #333333;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    content: "";
-    display: inline-block;
-    left: 50%;
-    position: absolute;
-    top: -16px;
-}
-
-.post-footer .top {
-    left: 50%;
-    position: absolute;
-    top: 0px;
-    padding-left: 4px;
-    color: #333333;
-}
-
-.post-footer .top:hover{
-    text-decoration: underline;
-    color: #A1A1A1;
-}
-
-.post-footer a{
-    color: #ccc;
-}
-
-.post-footer a:hover{
-    color: #ccc;
-}
-
-.post-footer .bookmark a{ 
-    float: right;
-}
-
-.pre-footer .contact-footer {
-    list-style: none outside none;
-    margin-left: 0;
-}
-
-.contact-footer i{
-    color:#eee;
-}
-
-.footer-subscribe {
-    color: #eee;
-}
-
-.copyright{
-    line-height: 44px;
-}
 
 
