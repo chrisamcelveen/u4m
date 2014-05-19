@@ -6,11 +6,30 @@ angular.module('u4mApp')
       {'title': 'HOME',
       'link': '#/'},
       {'title': 'ABOUT',
-      'link': '#/about'},
+      'link': '#/about',
+      'id': 'about'},
       {'title': 'OUR M.O.',
-      'link': '#/mo'},
+      'link': '#/mo',
+      'id': 'mo'},
       {'title': 'PRODUCTS',
-      'link': '#/products'},
+      'link': '#/products',
+      'id': 'products'},
+      {'title': 'BLOG',
+      'link': '#/blog'}
+    ];
+    
+    $scope.SubmenuAbout = [
+      {'title': 'HOME',
+      'link': '#/'},
+      {'title': 'ABOUT',
+      'link': '#/about',
+      'id': 'about'},
+      {'title': 'OUR M.O.',
+      'link': '#/mo',
+      'id': 'mo'},
+      {'title': 'PRODUCTS',
+      'link': '#/products',
+      'id': 'products'},
       {'title': 'BLOG',
       'link': '#/blog'}
     ];

@@ -21,9 +21,16 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-		    <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
-		        <a ng-href="{{item.link}}">{{item.title}}</a>
-		    </li>
+    		    <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
+  		        <a ng-href="{{item.link}}">{{item.title}}</a>
+
+              <ul id="sub-navigation" class="sub-menu">
+                <li ng-repeat="item in SubmenuAbout" ng-class="{active: isActive(item.link)}">
+                  <a ng-href="{{item.link}}">{{item.title}}</a>
+                </li>
+              </ul>
+
+    		    </li>
           </ul>
         </div>
       </div>

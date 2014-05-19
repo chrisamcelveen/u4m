@@ -363,10 +363,10 @@ a {
   display: none; }
 
 #navbar-inverse ul li:hover > ul {
-  display: block; }
+  display: inline; }
 
 #navbar-inverse ul li:active > ul {
-  display: block; }
+  display: inline; }
 
 #navbar-inverse ul ul.sub-menu {
   position: absolute;
@@ -391,17 +391,20 @@ a {
 #navbar-inverse ul ul.sub-menu li a {
   color: #666;
   width: 170px;
-  background: none; }
+  background: none;
+  text-decoration: none; }
 
 #navbar-inverse ul ul.sub-menu li:hover a {
-  background: none; }
+  background: none;
+  text-decoration: none; }
 
 #navbar-inverse ul ul.sub-menu li a:hover {
   color: #333;
-  background: none; }
+  background: none;
+  text-decoration: none; }
 
 ul#sub-navigation {
-  float: right;
+  float: left;
   list-style: none;
   margin-right: 45px;
   margin-top: 36px;
@@ -481,7 +484,7 @@ ul#sub-navigation li:last-child {
 
   .top-row .lead-text q {
     position: relative;
-    right: 13.5rem;
+    right: 13rem;
     bottom: 1rem; }
 
   .mid-row {
@@ -491,7 +494,7 @@ ul#sub-navigation li:last-child {
 
   .mid-row .lead-text q {
     position: relative;
-    right: 7.5rem;
+    right: 7rem;
     bottom: 1rem; }
 
   .mid-row-2 {
@@ -501,7 +504,7 @@ ul#sub-navigation li:last-child {
 
   .mid-row-2 .lead-text q {
     position: relative;
-    right: 14.5rem;
+    right: 14rem;
     bottom: 1rem; }
 
   .bottom-row {
@@ -511,7 +514,7 @@ ul#sub-navigation li:last-child {
 
   .bottom-row .lead-text q {
     position: relative;
-    right: 14.5rem;
+    right: 13.5rem;
     bottom: 1rem; }
 
   #header p {
