@@ -1038,8 +1038,12 @@ ul#sub-navigation li:last-child {
    =================================================== */
 
 #footer {
-  height: 120px;
-  background: rgba( 32, 32, 32, 0.80);
+  height: 145px;
+  background: rgba( 32, 32, 32, 0.875);
+}
+
+#footer ul {
+  margin-top: 4rem;
 }
 
 #footer ul li {
@@ -1047,9 +1051,22 @@ ul#sub-navigation li:last-child {
   padding-left: 4%;
 }
 
+#footer a {
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: lighten(#000, 60%);
+}
+
 #footer ul.navs li a {
   font-size: 12px;
   font-weight: 600;
+}
+
+#footer p {
+  font-size: 12px;
+  margin-left: 12.5%;
 }
 
 
